@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            if (args.Length == 1 && args[1] == "it")
+                Console.WriteLine("Ciao, Mondo!");
+            else
+                Console.WriteLine("Hello, World!");
         }
     }
 }
